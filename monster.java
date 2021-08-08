@@ -2,8 +2,8 @@
 MacGregor Winegard March 2020
 This is a simple text based game. The objective is to escape the cave
 without getting eaten by the monster.
-
 */
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -51,9 +51,9 @@ public class monster
 
 		
 			int lx = 0; 
-			int ly = 2; // sets locationwhile (!done)
+			int ly = 2; // sets location while (!done)
 			
-		System.out.printf("While spelunking one day, you find a hole. You start to investigate the hole, and suddenly you fall in!\n");
+		System.out.printf("\n\nWhile spelunking one day, you find a hole. You start to investigate the hole, and suddenly you fall in!\n");
 		System.out.printf("You cannot see anything. It is dark. You feel around you, and find cold hard stone.\n");
 		System.out.printf("You hear a creature of sorts, moving, breathing. It sounds scary...\n");
 		
@@ -169,12 +169,10 @@ public class monster
 
 	public static void printmenu() // prints out the movement menu
 	{
-		System.out.printf(" \n");
-		System.out.printf ("Select which way you would like to move:\n");
+		System.out.printf ("\nSelect which way you would like to move:\n");
 		System.out.printf ("1) Forward\n");
 		System.out.printf ("2) backward\n");
 		System.out.printf ("3) Left\n");
-		System.out.printf ("4) Right\n");
-		System.out.printf(" \n");
+		System.out.printf ("4) Right\n\n");
 	}
 }
